@@ -128,3 +128,27 @@ window.onload = function() {
 			
 		})
 }
+
+         $(".slider").owlCarousel({
+           loop: true,
+           autoplay: true,
+           autoplayTimeout: 2000, //2000ms = 2s;
+           autoplayHoverPause: true,
+         });
+         
+        let slider = document.getElementById("slide-track1");
+
+        var myVar = setInterval(spostaDiv, 90);
+        var margin = 0;
+
+        let l = window.screen.width
+        let w = 1300;
+
+        function spostaDiv(){
+            console.log(W);
+            if (margin == w){
+                margin = 0 + "px";
+            }else{
+                slider.style.marginLeft = margin + "px";
+            }
+        }
