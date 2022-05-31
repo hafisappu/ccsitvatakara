@@ -144,7 +144,7 @@ a:focus {
 		color: hsl(0, 0%, 47%);
 		font-size: 5px;
 	}
-	
+
 }
 
 
@@ -226,6 +226,14 @@ a:focus {
 	padding-right: 20px;
 }
 
+.navbar-toggler .icon-bar {
+	margin: 7px;
+	display: block;
+	width: 15px;
+	height: 1px;
+	background-color: #ffffff;
+	border-radius: 9px;
+  }
 
 /* .navigation .children {
     left: 0;
@@ -4340,7 +4348,7 @@ body {
 
 .slider::before,
 .slider::after {
-	background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+	/* background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%); */
 	content: "";
 	height: 100px;
 	position: absolute;
@@ -4370,4 +4378,18 @@ body {
 .slider .slide {
 	height: 130px;
 	width: 190px;
+}
+
+.slider .slide:hover{
+	transform: scale(1.5);
+
+}
+
+.carousel-item img {
+	opacity: .6;
+
+}
+
+.carousel-item {
+	background-color: #000;
 }
