@@ -152,3 +152,5 @@ window.onload = function() {
                 slider.style.marginLeft = margin + "px";
             }
         }
+
+        
