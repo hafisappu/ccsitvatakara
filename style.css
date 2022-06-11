@@ -4398,17 +4398,9 @@ body {
 /*.........placement cell...... */
 
 
-.pl-table{
-margin: 10px;
-padding: 5px;
-}
 
-.pl-table td,
-.pl-table th {
-		text-align: center;
-		font-size: 20px;
-		padding: 5px;
-	  }
+
+
 
 .para{
 	padding-top: ;
