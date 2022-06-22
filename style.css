@@ -1654,7 +1654,7 @@ a:focus {
 	margin: 2px 0 0;
 }
 
-.about_courses_thumb_capstion p {
+.about_courses_thumb_capstion .pa1 {
 	float: left;
 	width: 100%;
 	margin-bottom: 16px;
